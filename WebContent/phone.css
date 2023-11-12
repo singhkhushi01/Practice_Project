@@ -1,0 +1,71 @@
+#navbar {
+	flex-direction: column;
+	width: 100%;
+}
+
+#home h1 {
+	font-size: 50px;
+}
+
+#services .food {
+	flex-direction: column;
+}
+
+#services .fastfood {
+	flex-direction: column;
+}
+
+#services .box {
+	width: 95%;
+	align-items: center;
+	margin-bottom: 10px;
+	height: 350px;
+}
+
+#services .box img {
+	height: 265px;
+}
+
+#services .box button {
+	align-items: center;
+}
+
+/* next-pagefooditem */
+#pizza .pizza-item {
+	flex-direction: column;
+}
+
+#pizza .pizza-item2 {
+	flex-direction: column;
+}
+
+#pizza .box {
+	background-color: rgb(205, 214, 214);
+	width: 95%;
+	margin-bottom: 10px;
+	height: 350px;
+}
+
+#explore .more {
+	overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+/* hungry-zone */
+/* #hungry-zone .hungry{
+    flex-direction: column;
+}
+ #hungry-zone .box{
+    width:95%;
+   align-items: center;
+    margin-bottom: 10px;
+    height:350px;
+ }
+ #hungry-zone .box img{
+    height:100%;
+ } */
+body {
+	overflow-x: hidden;
+}
