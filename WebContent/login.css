@@ -1,0 +1,81 @@
+.center {
+	text-align: center;
+}
+
+#login-form::before {
+	content: "";
+	position: absolute;
+	background: url(./img/logo.png) no-repeat center center/cover;
+	opacity: 0.3;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background-attachment: absolute;
+	background-position: center;
+}
+
+#login-form h1 {
+	color: rgb(6, 163, 6);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 50px;
+	height: 100px;
+}
+
+#name, #password {
+	margin-bottom: 20px;
+}
+
+#login-box label {
+	padding-right: 10px;
+}
+
+#login-box label {
+	font-size: 25px;
+}
+
+#login-box input {
+	border-radius: 0.3rem;
+	border-color: green;
+	border-width: 3px;
+	box-shadow: 3px 3px rgb(152, 192, 162);
+}
+
+#login-box input:hover {
+	background-color: rgb(206, 201, 201);
+}
+
+#login-form footer {
+	bottom: 0px;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	justify-content: center;
+	text-align: center;
+	height: 20px;
+	width: 100%;
+}
+
+#login-form .account {
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+#submit {
+	border-color: black;
+	border-radius: 0.5rem;
+	font-size: 20px;
+	padding: 5px 15px;
+	margin-top: 20px;
+	box-shadow: 3px 3px rgb(152, 192, 162);
+	background-color: orange;
+}
+
+#submit:hover {
+	background-color: rgb(60, 192, 60);
+	border-color: green;
+}
+
+/* Hide scrollbars */
+body {
+	overflow: hidden;
+}
